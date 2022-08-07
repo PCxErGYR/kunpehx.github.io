@@ -9,7 +9,7 @@
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <sparkle:releaseNotesLink>https://windowx.kphx.dev/windowx/release-notes.html</sparkle:releaseNotesLink>
       <enclosure
-        url=" https://windowx.kphx.dev/windowx/Windowx.dmg"
+        url="https://windowx.kphx.dev/windowx/Windowx.dmg"
         sparkle:version="1.0.0"
         sparkle:shortVersionString="1.0.0"
         sparkle:edSignature="jf55nFT39qTSwT/X4XDCuznR8mqNSxs3J6yapb6wK7NeL+lU11K5ogYK2bVvZq3cq1YQHsaxyyAxZcJBgqHhBQ==" length="8860920"
