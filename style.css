@@ -1,0 +1,130 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 2px solid #FFFFFF;
+    padding: 0 10px 0 10px;
+    color: #FFFFFF;
+}
+
+.kphx-navbar {
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #4a4a4a !important;
+}
+#kphx-navbar {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#kphx-navbar .navbar-start .navbar-item {
+    padding-right: 20px;
+}
+
+.kphx-navbar .navbar-item, .kphx-navbar .navbar-link {
+    color: #FFFFFF;
+}
+.title,.subtitle {
+    color: #FFFFFF;
+}
+
+.kphx-menu {
+    position: absolute;
+    background-color: #363636 !important;
+    width: 100%;
+}
+
+.kphx-card {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgba(64, 64, 64, 1);
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    box-shadow: 0px 1px 20px 10px rgba(0,0,0,0.2);
+}
+.kphx-columns {
+    margin: 0 auto;
+}
+
+.kphx-new {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.kphx-vedio {
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0px 1px 11px 5px rgba(0,0,0,1);
+    box-shadow: inset 0px 1px 11px 5px rgba(0,0,0,1);
+    box-shadow: 0px 1px 20px 10px rgba(0,0,0,0.3);
+}
+
+.gradient {
+    /*background-image: radial-gradient(at 80% 20%, rgba(103, 74, 128, 0.56) 0, transparent 40%), radial-gradient(at 20% 0, rgba(128, 69, 123, 0.44) 0, transparent 30%), radial-gradient(at 40% 50%, #caddef 0, transparent 40%), radial-gradient(at 68% 50%, rgba(69, 37, 91, 0.58) 0, transparent 40%), radial-gradient(at 0 100%, #fff 0, transparent 40%), radial-gradient(at 80% 100%, #fff 0, transparent 40%), radial-gradient(at 0 0, rgba(133, 182, 255, .738) 0, transparent 40%);*/
+    background: linear-gradient(-45deg, #814a38, #966376, #b571c5, #3b4442);
+    background-size: 600% 600%;
+    animation: gradientBG 8s ease infinite;
+}
+
+/* 动画，控制背景 background-position */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Centered Menu */
+.navbar.has-centered-menu .navbar-start {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+/* Centered Logo Collapsed*/
+.navbar.has-centered-logo .navbar-start,
+.navbar.has-centered-logo .navbar-end {
+    flex: 1 1 0;
+}
+.navbar.has-centered-logo .navbar-start {
+    justify-content: flex-end;
+}
+.navbar.has-centered-logo .navbar-end {
+    justify-content: flex-start;
+}
+.navbar.has-centered-logo .navbar-start:after,
+.navbar.has-centered-logo .navbar-end:before {
+    /*content:'';
+    display:inline-block;*/
+}
+/* Centered Logo Expanded*/
+.navbar.has-centered-logo-alt .navbar-start,
+.navbar.has-centered-logo-alt .navbar-end {
+    flex: 1 1 0;
+}
+
+/* Centered Logo Above */
+.navbar.has-logo-above {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centered Logo With additional Menu*/
+.navbar.has-centered-logo-alt2 .navbar-menu {
+    flex-wrap: wrap;
+}
+.navbar.has-centered-logo-alt2 .navbar-start,
+.navbar.has-centered-logo-alt2 .navbar-end {
+    flex: 1 1 0;
+}
+.navbar.has-centered-logo-alt2 .navbar-wide.navbar-start {
+    flex: 1 1 100%;
+    justify-content: center;
+}
